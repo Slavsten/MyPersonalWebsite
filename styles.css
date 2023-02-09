@@ -1,0 +1,39 @@
+body {
+  background: linear-gradient(90deg, rgba(0, 255, 255), rgb(0, 110, 255));
+  min-height: 100vh;
+  margin: auto;
+}
+#header {
+  text-align: center;
+}
+#content {
+  overflow: auto;
+  height: 100%;
+}
+#nav {
+  margin: 10px;
+  text-align: end;
+  font-size: 20px;
+}
+#feature {
+  margin: 10px;
+}
+#footer {
+  background-color: blanchedalmond;
+  padding: 10px;
+  margin: 10px;
+}
+
+.column1,
+.column2,
+.column3 {
+  background-color: antiquewhite;
+  width: 192px;
+  float: left;
+  margin: 10%;
+}
+
+li {
+  display: inline;
+  padding: 5px;
+}
