@@ -9,6 +9,8 @@ body {
 #content {
   overflow: auto;
   height: 100%;
+  display: flex;
+  justify-content: space-around;
 }
 #nav {
   margin: 10px;
@@ -22,6 +24,8 @@ body {
   background-color: blanchedalmond;
   padding: 10px;
   margin: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 .column1,
