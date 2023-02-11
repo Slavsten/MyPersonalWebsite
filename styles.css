@@ -2,6 +2,7 @@ body {
   background: linear-gradient(60deg, rgb(20, 202, 202), rgb(133, 19, 240));
   min-height: 100vh;
   margin: auto;
+  font-family: OCR A Std, monospace;
 }
 #header {
   text-align: center;
@@ -20,10 +21,13 @@ body {
 }
 #feature {
   margin-left: 100px;
-  width: 400px;
+  margin-top: 80px;
+  width: 420px;
   font-size: 20px;
-
-  padding: auto;
+  padding: 10px;
+  background-color: rgba(20, 202, 202, 0.2);
+  border-radius: 5%;
+  border: solid;
 }
 #footer {
   background-color: blanchedalmond;
